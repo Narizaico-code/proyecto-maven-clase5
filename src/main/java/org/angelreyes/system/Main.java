@@ -29,7 +29,7 @@ public class Main extends Application {
     @Override
     public void start(Stage escenario) throws Exception {
         FXMLLoader cargadorFXML = new FXMLLoader(getClass().getResource(
-                "/org/angelreyes/view/InicioView.fxml"));
+                "/view/InicioView.fxml"));
         Parent raiz = cargadorFXML.load();
         
         Scene escena = new Scene(raiz);
